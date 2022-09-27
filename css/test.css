@@ -1,0 +1,140 @@
+ol,ul,nav{
+    list-style: none;
+}
+/*Typography*/
+
+h1{
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+
+h2{
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+h3{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+
+h4{
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+h5{
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+}
+
+h6{
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+/*Layout*/
+
+header{
+   
+
+}
+main{
+    background-color: coral;
+}
+footer{
+
+    background-color: darkgoldenrod;
+
+}
+.container{
+    width: 1170px;
+    overflow: hidden;
+}
+nav,ul{
+    overflow: hidden;
+}
+
+/*header*/
+
+#top-row{
+
+    
+    padding: 10px 0;
+    height: 80px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#top-row>.container{
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+#top-row>.container>img{
+
+    float: left;
+
+}
+#top-row>.container>div{
+
+    float: right;
+    
+}
+#nav-row{
+
+    background-color: aqua;
+}
+
+#logo{
+    height: 60px;
+    padding-left: 10px;
+}
+
+nav li{
+ cursor: pointer;
+
+
+}
+
+nav li:hover{
+    text-decoration: underline;
+}
+#nav-lang li{
+    float: right;
+    padding: 5px 15px 5px 0;
+    font-size: 0.8em;
+
+}
+#nav-lang{
+    padding: 5px;
+}
+#nav-lang li:hover{
+    color: #ff9d1e;
+}
+
+#main-nav{
+
+    float:left;
+    
+}
+#main-nav li{
+    float: left;
+    padding: 20px 20px 0;
+    font-size: 0.8rem;
+
+}
+#smi-container{
+    padding-top: 7px;
+}
+
+#smi-container li{
+    float: left;
+    padding: 5px;
+    background-color: yellow;
+    margin-left: 5px; 
+
+}
+
+
